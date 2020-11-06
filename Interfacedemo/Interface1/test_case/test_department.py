@@ -21,7 +21,7 @@ class TestDepartment:
         self.department.get_token(department_secret)
 
     @allure.feature("添加部门")
-    @pytest.mark.fasly(reruns=1)
+    @pytest.mark.flaky(reruns=1)
     @pytest.mark.parametrize("department_name, department_id", [("技术部", 4)], ids={"添加部门"})
     def test_create_department(self, department_name, department_id):
         r = self.department.create_department(department_name, department_id)
@@ -32,7 +32,7 @@ class TestDepartment:
         assert department_name == departmentname
 
     @allure.feature("更新部门")
-    @pytest.mark.fasly(reruns=1)
+    @pytest.mark.flaky(reruns=1)
     @pytest.mark.parametrize("department_name,department_id", [("测试研发中心", 4)], ids={"更新部门"})
     def test_update_department(self, department_name, department_id):
         r = self.department.update_department(department_name, department_id)
@@ -42,7 +42,7 @@ class TestDepartment:
         assert department_name == departmentname
 
     @allure.feature("删除部门")
-    @pytest.mark.fasly(reruns=1)
+    @pytest.mark.flaky(reruns=1)
     @pytest.mark.parametrize("department_id", [(4)], ids={"删除部门"})
     def test_delete_department(self, department_id):
         r = self.department.delete_department(department_id)
@@ -52,7 +52,7 @@ class TestDepartment:
         assert department_id not in departmentids
 
     @allure.feature("字段校验")
-    @pytest.mark.fasly(reruns=1)
+    @pytest.mark.flaky(reruns=1)
     def test_get_department_list(self):
         list=self.department.get_departmemt_list()
         schemalist = json.load(open("./json_schema/get_list_schema.json", encoding="utf-8"))

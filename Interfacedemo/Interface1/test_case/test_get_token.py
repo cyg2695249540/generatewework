@@ -22,8 +22,8 @@ class TestGetToken:
     def setup_class(self):
         self.token = BaseApi()
 
-    @allure.feature("get_token测试")
-    @pytest.mark.falsy(reruns=1)
+    @allure.story("get_token测试")
+    @pytest.mark.flaky(reruns=1)
     @pytest.mark.parametrize("corpid, corpsecret, errmsg", get_datas()[0], ids=get_datas()[1])
     def test_get_token(self, corpid, corpsecret, errmsg):
         get_token_url = f"https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={corpid}&corpsecret={corpsecret}"
