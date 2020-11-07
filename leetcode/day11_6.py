@@ -40,6 +40,10 @@ class Test:
     def test_sorted(self):
         #直接排序
         print(sorted(self._arr))
+        #反转
+        print(self._arr[::-1])
+        #倒叙
+        print(sorted(self._arr,reverse=True))
 
     def test_sortByBits(self):
         print(sorted(self._arr,key=lambda x:(bin(x).count("1"),x)))
