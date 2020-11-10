@@ -5,9 +5,9 @@
 # @Time     : 2020/11/6 15:47
 from selenium.webdriver.common.by import By
 
-from seleniumdemo.selenuim1.pages.addmember_page import AddmemberPage
-from seleniumdemo.selenuim1.pages.base_page import BasePage
-from seleniumdemo.selenuim1.pages.contact_page import ContactPage
+from seleniumdemo.selenium1.pages.addmember_page import AddmemberPage
+from seleniumdemo.selenium1.pages.base_page import BasePage
+from seleniumdemo.selenium1.pages.contact_page import ContactPage
 
 
 class MainPage(BasePage):

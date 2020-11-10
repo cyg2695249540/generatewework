@@ -2,13 +2,11 @@
 # -*- coding: utf-8 -*-
 # @FILE     : contact_page.py
 # @Author   : Pluto.
-# @Time     : 2020/11/6 15:48
-from time import sleep
-
+# @Time     : 2020/11/10 14:30
 from selenium.webdriver.common.by import By
 
 
-from seleniumdemo.selenuim1.pages.base_page import BasePage
+from seleniumdemo.selenium2.pages.base_page import BasePage
 
 
 class ContactPage(BasePage):
@@ -24,8 +22,10 @@ class ContactPage(BasePage):
     _addepartment = (By.CSS_SELECTOR, ".js_create_party")
     _jstree_anchor = (By.CSS_SELECTOR, ".jstree-anchor")
 
-    def goto_addmemberpage(self):
-        from seleniumdemo.selenuim1.pages.addmember_page import AddmemberPage
+
+
+    def goto_addmember_page(self):
+        from seleniumdemo.selenium2.pages.addmember_page import AddmemberPage
         self.wait_for_clickable(self._addmember_butto)
         while True:
             self.find_and_click(self._addmember_butto)
@@ -54,12 +54,22 @@ class ContactPage(BasePage):
         return self
 
     def goto_addepartment_page(self):
-        from seleniumdemo.selenuim1.pages.addepartment_page import AdDepartmentPage
+        from seleniumdemo.selenium2.pages.addpartment_page import AdDepartmentPage
         self.find_and_click(self._create_dropdown)
         self.find_and_click(self._addepartment)
         return AdDepartmentPage(self.driver)
 
     def get_department_list(self):
-        sleep(1)
+        self.wait_for_clickable(self._jstree_anchor)
         eles=self.finds(self._jstree_anchor)
         return [name.text for name in eles]
+
+    def delete_department(self,departmentname):
+        search_department = (By.LINK_TEXT, f"{departmentname}")
+        botto=(By.CSS_SELECTOR,".jstree-clicked .jstree-contextmenu-hover")
+        delete=(By.CSS_SELECTOR,"[rel='3']")
+        self.find_and_click(search_department)
+        self.find_and_click(botto)
+        self.find_and_click(delete)
+        self.find_and_click(self._determine)
+        return self

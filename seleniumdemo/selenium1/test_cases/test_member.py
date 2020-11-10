@@ -7,7 +7,7 @@ import allure
 import pytest
 import yaml
 
-from seleniumdemo.selenuim1.pages.main_page import MainPage
+from seleniumdemo.selenium1.pages.main_page import MainPage
 
 
 def get_datas():
