@@ -16,10 +16,18 @@ ex:349
 输出结果中的每个元素一定是唯一的。
 我们可以不考虑输出结果的顺序。
 """
-class Test:
-    _nums1 = [1, 2, 2, 1]
-    _nums2 = [2, 2]
-    def testset(self):
-        set1 = set(self._nums1)
-        set2 = set(self._nums2)
-        print(list(set1 & set2))
+from typing import List
+
+#  & 交集  | 并集  - 非集
+def intersection():
+    set1 = set(nums1)
+    set2 = set(nums2)
+    return list(set1 & set2)
+
+
+if __name__ == '__main__':
+    # nums1 = [1, 2, 2, 1]
+    # nums2 = [2, 2]
+    nums1 = [4, 9, 5]
+    nums2 = [9, 4, 9, 8, 4]
+    print(intersection())

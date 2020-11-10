@@ -11,17 +11,24 @@ ex:1
 给定 nums = [2, 7, 11, 15], target = 9
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
-"""
-
-
-class Test:
-    _nums = [2, 7, 11, 15]
-    _target = 9
-
-    def test_addnums(self):
-        dic = {}
+dic = {}
         for k, v in enumerate(self._nums):
             if self._target - v in dic:
                 print([dic[self._target - v], k])
             dic[v] = k
 
+"""
+
+
+def addnums():
+    dic = {}
+    for k, v in enumerate(nums):
+        if target - v in dic:
+            return [dic[target - v], k]
+        dic[v] = k
+
+
+if __name__ == '__main__':
+    nums = [2, 7, 11, 15]
+    target = 9
+    print(addnums())

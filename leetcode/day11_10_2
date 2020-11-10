@@ -1,0 +1,4 @@
+"""
+查询门课成绩都大于80分的成员姓名
+"""
+select name from emp group by name having min(score) > 80
