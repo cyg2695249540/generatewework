@@ -34,17 +34,42 @@
 """
 
 
-class Test:
-    _arr = [0,1,3,4,5,6,7,8,2]
+# class Test:
+#     _arr = [0,1,3,4,5,6,7,8,2]
+#
+#     def test_sorted(self):
+#         #直接排序
+#         print(sorted(self._arr))
+#         #反转
+#         print(self._arr[::-1])
+#         #倒叙
+#         print(sorted(self._arr,reverse=True))
+#
+#     def test_sortByBits(self):
+#         print(sorted(self._arr,key=lambda x:(bin(x).count("1"),x)))
 
-    def test_sorted(self):
-        #直接排序
-        print(sorted(self._arr))
-        #反转
-        print(self._arr[::-1])
-        #倒叙
-        print(sorted(self._arr,reverse=True))
+def paixu(arr):
+    return sorted(arr)
 
-    def test_sortByBits(self):
-        print(sorted(self._arr,key=lambda x:(bin(x).count("1"),x)))
 
+def daoxu(arr):
+    return sorted(arr, reverse=True)
+
+
+def fanzhuan(arr):
+    return arr[::-1]
+
+
+def sortByBits(arr):
+    a = sorted(arr, key=lambda x: (bin(x).count("1"), x))
+    #个人修改按列表循序
+    a.sort(key=arr.index)
+    return a
+
+
+if __name__ == '__main__':
+    arr1 = [0, 1, 3, 4, 5, 6, 7, 8, 2]
+    print(paixu(arr1))
+    print(daoxu(arr1))
+    print(fanzhuan(arr1))
+    print(sortByBits(arr1))

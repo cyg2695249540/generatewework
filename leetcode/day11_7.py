@@ -20,17 +20,35 @@
 """
 
 
-class Test:
-    _str = -120
+# class Test:
+#     _str = -120
+#
+#     def test_reverse(self):
+#         s = str(abs(self._str))[::-1]
+#         if self._str < 0:
+#             s = "-" + s
+#         r = int(s)
+#         print(r)
+#         if r >= -2 ** 31 and r <= 2 ** 31 - 1:
+#             print(r)
+#         else:
+#             print(0)
 
-    def test_reverse(self):
-        s = str(abs(self._str))[::-1]
-        if self._str < 0:
-            s = "-" + s
-        r = int(s)
-        print(r)
-        if r >= -2 ** 31 and r <= 2 ** 31 - 1:
-            print(r)
-        else:
-            print(0)
+def reverse(string):
+    s = str(abs(string))[::-1]
+    if string < 0:
+        s = "-" + s
+    r = int(s)
+    if r >= -2 ** 31 and r < 2 ** 31 - 1:
+        return r
+    else:
+        return 0
 
+
+if __name__ == '__main__':
+    str1 = 123
+    str2 = -123
+    str3 = 120
+    print(reverse(str1))
+    print(reverse(str2))
+    print(reverse(str3))

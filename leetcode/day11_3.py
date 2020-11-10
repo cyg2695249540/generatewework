@@ -19,15 +19,16 @@ ex:349
 from typing import List
 
 #  & 交集  | 并集  - 非集
-def intersection():
-    set1 = set(nums1)
-    set2 = set(nums2)
+def intersection(num1,num2):
+    set1 = set(num1)
+    set2 = set(num2)
     return list(set1 & set2)
 
 
 if __name__ == '__main__':
-    # nums1 = [1, 2, 2, 1]
-    # nums2 = [2, 2]
-    nums1 = [4, 9, 5]
-    nums2 = [9, 4, 9, 8, 4]
-    print(intersection())
+    case1 = [1, 2, 2, 1]
+    case2 = [2, 2]
+    case3 = [4, 9, 5]
+    case4 = [9, 4, 9, 8, 4]
+    print(intersection(case1,case2))
+    print(intersection(case3,case4))
