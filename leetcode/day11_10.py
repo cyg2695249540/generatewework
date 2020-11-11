@@ -25,6 +25,8 @@
 输入: "{[]}"
 输出: true
 """
+
+
 def isValid(s):
     if len(s) % 2 == 1:
         return False
@@ -44,9 +46,9 @@ def isValid(s):
     return not stack
 
 if __name__ == '__main__':
-    s1="()"
-    s2="()[]{}"
-    s3="(]"
+    s1 = "()"
+    s2 = "()[]{}"
+    s3 = "(]"
     s4 = "([)]"
     s5 = "{[]}"
     print(isValid(s1))
@@ -54,5 +56,3 @@ if __name__ == '__main__':
     print(isValid(s3))
     print(isValid(s4))
     print(isValid(s5))
-
-
