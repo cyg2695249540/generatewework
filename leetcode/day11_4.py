@@ -17,25 +17,27 @@ ex:57
 """
 
 
-class Test:
-    _intervals = [[1, 2], [3, 5], [6, 7], [8, 10], [12, 16], [18, 19]]
-    _newInterval = [4, 8]
-
-    def test_insert(self):
-        left, right = self._newInterval
-        placed = False
-        ans = list()
-        for le, ri in self._intervals:
-            if ri < left:
-                ans.append([le, ri])
-            elif le > right:
-                if not placed:
-                    ans.append([left, right])
-                    placed = True
-                ans.append([le,ri])
-            else:
-                left = min(le, left)
-                right = max(ri, right)
+def insert():
+    left, right = newInterval
+    placed = False
+    ans = list()
+    for le, ri in intervals:
+        if ri < left:
+            ans.append([le, ri])
+        elif le > right:
+            if not placed:
+                ans.append([left, right])
+                placed = True
+            ans.append([le, ri])
+        else:
+            left = min(le, left)
+            right = max(ri, right)
         if not placed:
             ans.append([left, right])
-        print(ans)
+    return ans
+
+
+if __name__ == '__main__':
+    intervals = [[1, 2], [3, 5], [6, 7], [8, 10], [12, 16], [18, 19]]
+    newInterval = [4, 8]
+    print(insert())

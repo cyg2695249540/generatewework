@@ -23,17 +23,36 @@ A[i] > A[i+1] > ... > A[A.length - 1]
 """
 
 
-class Test:
-    _A = [0, 3, 2, 1]
+# class Test:
+#     _A = [0, 3, 2, 1]
+#
+#     def test_mountainslist(self):
+#         N = len(self._A)
+#         i = 0
+#         while i + 1 < N and self._A[i] < self._A[i + 1]:
+#             i += 1
+#         if i == 0 or i == N - 1:
+#             print(False)
+#         while i < N - 1 and self._A[i] > self._A[i + 1]:
+#             i += 1
+#         print(i == N - 1)
 
-    def test_mountainslist(self):
-        N = len(self._A)
-        i = 0
-        while i + 1 < N and self._A[i] < self._A[i + 1]:
-            i += 1
-        if i == 0 or i == N - 1:
-            print(False)
-        while i < N - 1 and self._A[i] > self._A[i + 1]:
-            i += 1
-        print(i == N - 1)
+def mountainslist(lista):
+    N = len(lista)
+    i = 0
+    while i + 1 < N and lista[i] < lista[i + 1]:
+        i += 1
+    if i == 0 or i == N - 1:
+        return False
+    while i + 1 < N and lista[i] > lista[i + 1]:
+        i += 1
+    return i + 1 == N
 
+
+if __name__ == '__main__':
+    A = [2, 1]
+    B = [3, 5, 5]
+    C = [0, 3, 2, 1]
+    print(mountainslist(A))
+    print(mountainslist(B))
+    print(mountainslist(C))
