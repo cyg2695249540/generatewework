@@ -30,6 +30,7 @@ def sortArrayByParityII():
         r.append(o[i])
         r.append(j[i])
     return r
+
 if __name__ == '__main__':
     A=[4,2,5,7]
     print(sortArrayByParityII())
