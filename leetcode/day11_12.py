@@ -17,6 +17,8 @@ exp:922. 按奇偶排序数组 II
 A.length % 2 == 0
 0 <= A[i] <= 1000
 """
+
+
 def sortArrayByParityII():
     j=[]
     o=[]
@@ -32,5 +34,5 @@ def sortArrayByParityII():
     return r
 
 if __name__ == '__main__':
-    A=[4,2,5,7]
+    A = [4, 2, 5, 7]
     print(sortArrayByParityII())

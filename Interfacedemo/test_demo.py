@@ -17,6 +17,11 @@ class TestDemo:
         self.driver.implicitly_wait(3)
 
     def test_ddd(self):
-        action=ActionChains(self.driver)
-        action.move_to_element(self.driver.find_element(By.ID,"su")).click()
+        handles1 = self.driver.window_handles
+        print(handles1)
+        self.driver.find_element(By.LINK_TEXT,"霍格沃兹测试学院_霍格沃兹测试学院腾讯课堂官网").click()
+        handles2=self.driver.window_handles
+        print(handles2)
+        self.driver.switch_to.window(handles2[-1])
+        self.driver.find_element(By.LINK_TEXT,"登录").click()
 
