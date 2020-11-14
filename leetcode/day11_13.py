@@ -18,18 +18,20 @@ epx:125. 验证回文串
 
 def isPalindrome(s):
     s = filter(str.isalnum, s.lower())
-    ss = ''.join(list(s))
+    ss = "".join(list(s))
     return ss == ss[::-1]
 
 
 def shuzi(s):
     s = filter(str.isdigit, s)
-    return ''.join(list(s))
+    ss = "".join(list(s))
+    return ss
 
 
 def zimu(s):
     s = filter(str.isalpha, s)
-    return ''.join(list(s))
+    ss = "".join(list(s))
+    return ss
 
 
 if __name__ == '__main__':
