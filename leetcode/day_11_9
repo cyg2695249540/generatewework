@@ -1,4 +1,5 @@
 """
+exp:176. 第二高的薪水
 编写一个 SQL 查询，获取 Employee表中第二高的薪水（Salary）。
 +----+--------+
 | Id | Salary |
@@ -14,6 +15,15 @@
 | 200                 |
 +---------------------+
 """
+
+
+
+
+
+
+
+
+
 select ifnull(
 (selecet distinct Salary from Employee order by Salary desc limit 1,1)
 ,null)
