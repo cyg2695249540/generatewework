@@ -1,0 +1,12 @@
+addepartment:
+  - ["手工组","新建部门成功"]
+case1:
+  - "add department succeed"
+addepartmentfail:
+  - "自动化"
+case2:
+  - "add department fail"
+deletedepartment:
+  - ["手工组","删除部门成功"]
+case3:
+  - "delete department succeed"
