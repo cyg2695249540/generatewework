@@ -68,7 +68,7 @@ def sortByBits(arr):
 
 
 if __name__ == '__main__':
-    arr1 = [0, 1, 3, 4, 5, 6, 7, 8, 2]
+    arr1 = [0, 1, 3, 4, 5, 6, 7, 8, 2,2]
     print(paixu(arr1))
     print(daoxu(arr1))
     print(fanzhuan(arr1))
