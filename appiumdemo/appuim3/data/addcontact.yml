@@ -1,0 +1,12 @@
+add:
+  - [ 'LCQ', '女', 13711111111,'添加成功']
+case1:
+  - 'addmember sucess'
+del1:
+  - ['LCQ','无搜索结果']
+case2:
+  - 'deletemember sucess'
+chatnew:
+  - ['软件测试','test1117']
+case3:
+  - 'send message sucess'
