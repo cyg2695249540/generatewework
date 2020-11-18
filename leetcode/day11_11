@@ -15,6 +15,20 @@ ex:177
 | 200                    |
 +------------------------+
 """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
 set N=N-1;

@@ -14,8 +14,9 @@ def aaa():
     # b = [x-1 for x in a]
     # print (a, b)
     a = 9
+    c=bin(a).count("1")
     b = str.count("10231","2")
-    print(b)
+    print(c,b)
 
 
 if __name__ == '__main__':

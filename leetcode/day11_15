@@ -17,7 +17,7 @@ Id 是这个表的主键。
 | 2  | bob@example.com  |
 +----+------------------+
 """
-
+delete p1 from Person p1,Person p1 having count(Email)>1 and p1.Id>>p2.Id
 
 
 

@@ -33,6 +33,28 @@ Department 表：
 +------+-------------+-------------+-------------+-----+-------------+
 注意，结果表有 13 列 (1个部门 id 列 + 12个月份的收入列)。
 """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 select id,
 sum(case when month='Jan' then revenue end) as 'Jan_Revenue',
 sum(case when month='Feb' then revenue end) as 'Feb_Revenue',

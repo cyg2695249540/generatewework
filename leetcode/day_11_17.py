@@ -19,9 +19,20 @@
 解释: 注意，要求返回第三大的数，是指第三大且唯一出现的数。
 存在两个值为2的数，它们都排第二。
 """
+
+
+
+
+
+
+
+
+
+
+
+
 def thirdMax(nums):
     # a = sorted(set(nums))[::-1]
-    # print(a)
     # if len(a) < 3:
     #     return max(a)
     # else:

@@ -19,4 +19,14 @@
 |   1     | War       |   great 3D   |   8.9     |
 +---------+-----------+--------------+-----------+
 """
+
+
+
+
+
+
+
+
+
+
 select id,movie,description,rating from cinema where id%2=1 and description !="boring" order by rating desc

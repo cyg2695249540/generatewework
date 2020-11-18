@@ -24,15 +24,9 @@ exp:58. 最后一个单词的长度
 
 
 def lengthOfLastWord( s: str) -> int:
-    l=reversed(s)
-    a = ""
-    for i in l:
-        if i != " ":
-            a=a+i
-        else:
-            return len(a)
-    return 0
+        s=s.split()
+        return len(s[-1]) if s else 0
 
 if __name__ == '__main__':
-    s="Hello World"
+    s="Hello World "
     print(lengthOfLastWord(s))
