@@ -1,0 +1,12 @@
+create_department:
+  - [ "技术部", 4 ]
+case1:
+  - "add department"
+update_department:
+  - [ "测试研发中心", 4 ]
+case2:
+  - "update department"
+delete_department:
+  - 4
+case3:
+  - "delete department"

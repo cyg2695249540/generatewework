@@ -1,0 +1,12 @@
+create_member:
+  - [ "张三", "zhangsan" ]
+case1:
+  - "add member"
+update_member:
+  - [ "李四", "zhangsan"]
+case2:
+  - "update member"
+delete_member:
+  - ["李四", "zhangsan"]
+case3:
+  - "delete member"
