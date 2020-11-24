@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @FILE     : base_page.py
 # @Author   : Pluto.
-# @Time     : 2020/11/16 15:19
+# @Time     : 2020/11/24 17:11
 from time import sleep
 
 from selenium import webdriver
@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class BasePage:
+class BasePage1124:
     _base_url = ""
 
     def __init__(self, base_driver=None):
@@ -21,14 +21,15 @@ class BasePage:
             option = Options()
             option.debugger_address = "127.0.0.1:9222"
             self.driver = webdriver.Chrome(options=option)
+            self.driver.implicitly_wait(3)
         else:
             self.driver: WebDriver = base_driver
         if self._base_url != "":
             self.driver.get(self._base_url)
-        self.driver.implicitly_wait(3)
 
     def find(self, locator):
         return self.driver.find_element(*locator)
+
     def find_and_click(self, locator):
         self.find(locator).click()
 
@@ -41,10 +42,10 @@ class BasePage:
     def finds(self, locator):
         return self.driver.find_elements(*locator)
 
-    def wait_for_clickable(self, element):
+    def wait_for_click(self, element):
         WebDriverWait(self.driver, 10).until(ec.element_to_be_clickable(element))
 
     def get_tips_text(self):
         sleep(1)
-        get_tips = (By.CSS_SELECTOR, "#js_tips")
+        get_tips = (By.ID, "js_tips")
         return self.find_and_get_text(get_tips)
