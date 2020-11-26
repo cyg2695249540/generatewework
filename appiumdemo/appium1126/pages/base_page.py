@@ -1,0 +1,43 @@
+# !/usr/bin/env Python3
+# -*- coding: utf-8 -*-
+# @FILE     : base_page.py
+# @Author   : Pluto.
+# @Time     : 2020/11/26 19:36
+from appium.webdriver.common.mobileby import MobileBy
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
+
+
+class BasePage1126:
+    def __init__(self, base_driver=None):
+        self.driver = base_driver
+
+    def find(self, locator):
+        return self.driver.find_element(*locator)
+
+    def find_and_click(self, locator):
+        self.find(locator).click()
+
+    def find_and_send_keys(self, locator, value):
+        self.find(locator).send_keys(value)
+
+    def find_and_get_text(self, locator):
+        return self.find(locator).text
+
+    def finds(self, locator):
+        return self.driver.find_elements(*locator)
+
+    def wait_for_clickable(self, element):
+        WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(element))
+
+    def find_by_scroll_and_click(self, text):
+        ele = (MobileBy.ANDROID_UIAUTOMATOR,
+               'new UiScrollable(new UiSelector()'
+               '.scrollable(true).instance(0))'
+               '.scrollIntoView(new UiSelector()'
+               f'.text("{text}").instance(0));')
+        return self.find_and_click(ele)
+
+    def get_toast_text(self):
+        ele = (MobileBy.XPATH, "//*[@class='android.widget.Toast']")
+        return self.find_and_get_text(ele)

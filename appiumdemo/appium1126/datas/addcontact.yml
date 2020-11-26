@@ -1,0 +1,8 @@
+add:
+  - [ 'CYFF', '男', 13711111111,'添加成功']
+case1:
+  - 'addmember sucess'
+del1:
+  - ['CYFF','无搜索结果']
+case2:
+  - 'deletemember sucess'
