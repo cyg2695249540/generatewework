@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 11 20:43:53 CST 2020","Wed Nov 11 20:44:02 CST 2020","9281","","test_member","TestMember","","","test_addmember[addmember sucess]",""
+"passed","Wed Nov 11 20:44:20 CST 2020","Wed Nov 11 20:44:29 CST 2020","9078","","test_member","TestMember","","","test_deletemember[deletemember sucess]",""

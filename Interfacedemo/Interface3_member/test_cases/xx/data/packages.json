@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_member",
+    "children" : [ {
+      "name" : "test_addmember[add member]",
+      "uid" : "8a2814c50a1b2bc5",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258846914,
+        "stop" : 1605258847524,
+        "duration" : 610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'张三'", "'zhangsan'" ]
+    }, {
+      "name" : "test_update_member[update member]",
+      "uid" : "b26ec17326382b73",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258847524,
+        "stop" : 1605258848133,
+        "duration" : 609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'张三1'", "'zhangsan'" ]
+    }, {
+      "name" : "test_delete_member[delete member]",
+      "uid" : "cfc66624facc6edc",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258848149,
+        "stop" : 1605258848727,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'张三1'", "'zhangsan'" ]
+    }, {
+      "name" : "test_get_memberdetail[get memberdetail]",
+      "uid" : "3e274cd741705d79",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258848727,
+        "stop" : 1605258848727,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'zhangsan'" ]
+    }, {
+      "name" : "test_get_department_member_list",
+      "uid" : "6ea1a0ab18db318a",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258848742,
+        "stop" : 1605258848742,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8a323808f876c4ca6ffee2d685fb6479"
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_member",
+    "children" : [ {
+      "name" : "TestMemberPage",
+      "children" : [ {
+        "name" : "test_addmember[addmember sucess]",
+        "uid" : "c0804f3bb6f43fd8",
+        "parentUid" : "d20be307f68ef356354ce88133c5fcc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606392248885,
+          "stop" : 1606392258229,
+          "duration" : 9344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'男'", "'CYFF'", "13711111111", "'添加成功'" ]
+      }, {
+        "name" : "test_deletemember[deletemember sucess]",
+        "uid" : "72f67e84332c06b4",
+        "parentUid" : "d20be307f68ef356354ce88133c5fcc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606392275653,
+          "stop" : 1606392285903,
+          "duration" : 10250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CYFF'", "'无搜索结果'" ]
+      } ],
+      "uid" : "d20be307f68ef356354ce88133c5fcc6"
+    } ],
+    "uid" : "103aaf9363bf134dc991796fc67dba36"
+  } ]
+}

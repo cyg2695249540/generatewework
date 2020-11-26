@@ -1,0 +1,94 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成员模块",
+    "children" : [ {
+      "name" : "添加成员",
+      "children" : [ {
+        "name" : "test_addmember[add member]",
+        "uid" : "8a2814c50a1b2bc5",
+        "parentUid" : "6e27f1087b38d0e7c36624bbc3f02615",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258846914,
+          "stop" : 1605258847524,
+          "duration" : 610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'张三'", "'zhangsan'" ]
+      } ],
+      "uid" : "6e27f1087b38d0e7c36624bbc3f02615"
+    }, {
+      "name" : "更新成员",
+      "children" : [ {
+        "name" : "test_update_member[update member]",
+        "uid" : "b26ec17326382b73",
+        "parentUid" : "ed53cebfe0a9ba69d9aca10bb195fb53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258847524,
+          "stop" : 1605258848133,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'张三1'", "'zhangsan'" ]
+      } ],
+      "uid" : "ed53cebfe0a9ba69d9aca10bb195fb53"
+    }, {
+      "name" : "删除成员",
+      "children" : [ {
+        "name" : "test_delete_member[delete member]",
+        "uid" : "cfc66624facc6edc",
+        "parentUid" : "a6605d4a9a64dccfb2b0bac248c8b04e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258848149,
+          "stop" : 1605258848727,
+          "duration" : 578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'张三1'", "'zhangsan'" ]
+      } ],
+      "uid" : "a6605d4a9a64dccfb2b0bac248c8b04e"
+    }, {
+      "name" : "读取成员",
+      "children" : [ {
+        "name" : "test_get_memberdetail[get memberdetail]",
+        "uid" : "3e274cd741705d79",
+        "parentUid" : "e2a487bd4a915225914f537c5dd0caaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258848727,
+          "stop" : 1605258848727,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'zhangsan'" ]
+      } ],
+      "uid" : "e2a487bd4a915225914f537c5dd0caaa"
+    }, {
+      "name" : "获取部门成员",
+      "children" : [ {
+        "name" : "test_get_department_member_list",
+        "uid" : "6ea1a0ab18db318a",
+        "parentUid" : "f280d8eff5050c63dc2b9f09dfdb6461",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258848742,
+          "stop" : 1605258848742,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f280d8eff5050c63dc2b9f09dfdb6461"
+    } ],
+    "uid" : "9ba834f505cfa3fa0482e3470809ab55"
+  } ]
+}

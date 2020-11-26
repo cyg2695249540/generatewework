@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成员模块",
+    "children" : [ {
+      "name" : "成功添加成员",
+      "children" : [ {
+        "name" : "test_addmember[addmember sucess]",
+        "uid" : "c0804f3bb6f43fd8",
+        "parentUid" : "8bf7ac3d72a235f9f1e484f333dd3bb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606392248885,
+          "stop" : 1606392258229,
+          "duration" : 9344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'男'", "'CYFF'", "13711111111", "'添加成功'" ]
+      } ],
+      "uid" : "8bf7ac3d72a235f9f1e484f333dd3bb9"
+    }, {
+      "name" : "正确删除成员",
+      "children" : [ {
+        "name" : "test_deletemember[deletemember sucess]",
+        "uid" : "72f67e84332c06b4",
+        "parentUid" : "70c0b076c047af03e0d7ebba70c43256",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606392275653,
+          "stop" : 1606392285903,
+          "duration" : 10250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'CYFF'", "'无搜索结果'" ]
+      } ],
+      "uid" : "70c0b076c047af03e0d7ebba70c43256"
+    } ],
+    "uid" : "9ba834f505cfa3fa0482e3470809ab55"
+  } ]
+}

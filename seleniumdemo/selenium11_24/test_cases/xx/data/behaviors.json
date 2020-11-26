@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成员模块",
+    "children" : [ {
+      "name" : "添加成员",
+      "children" : [ {
+        "name" : "test_addmember[addmember succeed]",
+        "uid" : "ec3a12675ca0b83e",
+        "parentUid" : "6e27f1087b38d0e7c36624bbc3f02615",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606217991023,
+          "stop" : 1606217993270,
+          "duration" : 2247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "12345", "13711111111", "'保存成功'", "'aaa'" ]
+      } ],
+      "uid" : "6e27f1087b38d0e7c36624bbc3f02615"
+    }, {
+      "name" : "添加成员失败",
+      "children" : [ {
+        "name" : "test_addmember_fail[addmember defeated]",
+        "uid" : "4b9a6007077be5c4",
+        "parentUid" : "537148763037b979d9dfb55c2c3286f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606217996622,
+          "stop" : 1606217998890,
+          "duration" : 2268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "13711111112", "'bbb'" ]
+      } ],
+      "uid" : "537148763037b979d9dfb55c2c3286f7"
+    }, {
+      "name" : "通讯录添加成员",
+      "children" : [ {
+        "name" : "test_contact_addmember[contact addmember succeed]",
+        "uid" : "2899e32e6af01b1b",
+        "parentUid" : "48ed52205ba6b0f54573734116488e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218002269,
+          "stop" : 1606218004966,
+          "duration" : 2697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1234567", "13711111113", "'保存成功'", "'ccc'" ]
+      } ],
+      "uid" : "48ed52205ba6b0f54573734116488e35"
+    }, {
+      "name" : "删除成员",
+      "children" : [ {
+        "name" : "test_delete_member[delete member succeed]",
+        "uid" : "725531e027e59935",
+        "parentUid" : "a6605d4a9a64dccfb2b0bac248c8b04e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218008309,
+          "stop" : 1606218010274,
+          "duration" : 1965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'删除成功'", "'aaa'", "'ccc'" ]
+      } ],
+      "uid" : "a6605d4a9a64dccfb2b0bac248c8b04e"
+    } ],
+    "uid" : "9ba834f505cfa3fa0482e3470809ab55"
+  } ]
+}

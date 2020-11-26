@@ -1,0 +1,31 @@
+[ {
+  "uid" : "95a781925fcca358",
+  "name" : "test_addepartment[add department succeed]",
+  "time" : {
+    "start" : 1606218983264,
+    "stop" : 1606218986453,
+    "duration" : 3189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e5a654f1a2a414d",
+  "name" : "test_delete_department[delete department succeed]",
+  "time" : {
+    "start" : 1606218994339,
+    "stop" : 1606218997214,
+    "duration" : 2875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b8750c2305ce8cc",
+  "name" : "test_addepartment_cancel[add department fail]",
+  "time" : {
+    "start" : 1606218990188,
+    "stop" : 1606218991039,
+    "duration" : 851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

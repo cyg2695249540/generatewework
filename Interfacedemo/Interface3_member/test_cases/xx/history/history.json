@@ -1,0 +1,97 @@
+{
+  "3a5ff33f03d532dc674006bd9a72329d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfc66624facc6edc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258848149,
+        "stop" : 1605258848727,
+        "duration" : 578
+      }
+    } ]
+  },
+  "cb7d4c51855a1b736666b374e2fe0468" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a2814c50a1b2bc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258846914,
+        "stop" : 1605258847524,
+        "duration" : 610
+      }
+    } ]
+  },
+  "f8f77667aab8c1c0c79002dff74b3781" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e274cd741705d79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258848727,
+        "stop" : 1605258848727,
+        "duration" : 0
+      }
+    } ]
+  },
+  "94d0131d5c423e35a2076dbf1b3759c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b26ec17326382b73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258847524,
+        "stop" : 1605258848133,
+        "duration" : 609
+      }
+    } ]
+  },
+  "a74a34287f13e5b720e7fdab7e1117cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ea1a0ab18db318a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605258848742,
+        "stop" : 1605258848742,
+        "duration" : 0
+      }
+    } ]
+  }
+}

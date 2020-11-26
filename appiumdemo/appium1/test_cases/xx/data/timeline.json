@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-8UGLRQ7",
+    "children" : [ {
+      "name" : "25420-MainThread",
+      "children" : [ {
+        "name" : "test_deletemember[deletemember sucess]",
+        "uid" : "c97625af877bb426",
+        "parentUid" : "2eb8b50ca2ee6a874f9c8fd7ac01372d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604733179380,
+          "stop" : 1604733188902,
+          "duration" : 9522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'LCQ'", "'无搜索结果'" ]
+      }, {
+        "name" : "test_addmember[addmember sucess]",
+        "uid" : "6d607eae3bdbe06f",
+        "parentUid" : "2eb8b50ca2ee6a874f9c8fd7ac01372d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604733151323,
+          "stop" : 1604733160494,
+          "duration" : 9171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'女'", "'LCQ'", "13711111111", "'添加成功'" ]
+      } ],
+      "uid" : "2eb8b50ca2ee6a874f9c8fd7ac01372d"
+    } ],
+    "uid" : "d46f5d3009e3380f945cbfc4ea0bf2c1"
+  } ]
+}

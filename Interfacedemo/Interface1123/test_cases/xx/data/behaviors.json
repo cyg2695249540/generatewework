@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "部门模块",
+    "children" : [ {
+      "name" : "添加部门",
+      "children" : [ {
+        "name" : "test_addmember[add department]",
+        "uid" : "7d69e349dd834f74",
+        "parentUid" : "0d5ba08137aca800c049424bc753bc04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606123177461,
+          "stop" : 1606123177961,
+          "duration" : 500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "'技术部'" ]
+      } ],
+      "uid" : "0d5ba08137aca800c049424bc753bc04"
+    }, {
+      "name" : "更新部门",
+      "children" : [ {
+        "name" : "test_update_department[update department]",
+        "uid" : "cc556c0ec9a3dcea",
+        "parentUid" : "dd59241abf3ba4d0a3b1a4d2d35f57fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606123178242,
+          "stop" : 1606123178852,
+          "duration" : 610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "'测试研发中心'" ]
+      } ],
+      "uid" : "dd59241abf3ba4d0a3b1a4d2d35f57fd"
+    }, {
+      "name" : "删除部门",
+      "children" : [ {
+        "name" : "test_delete_department[delete department]",
+        "uid" : "76434a7d7287433c",
+        "parentUid" : "0645f47b4cf2b55f22efc23934af0620",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606123179133,
+          "stop" : 1606123183821,
+          "duration" : 4688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4" ]
+      } ],
+      "uid" : "0645f47b4cf2b55f22efc23934af0620"
+    }, {
+      "name" : "字段校验",
+      "children" : [ {
+        "name" : "test_get_department_list",
+        "uid" : "c696b68905939ced",
+        "parentUid" : "28335635b4d86e2fe556516bc47e9cb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606123184071,
+          "stop" : 1606123184321,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28335635b4d86e2fe556516bc47e9cb1"
+    } ],
+    "uid" : "d437bdb59728123f7659c59ff95d2201"
+  } ]
+}

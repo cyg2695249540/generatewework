@@ -1,0 +1,97 @@
+{
+  "14174a27a164c37da2ded9fd0ecf2620" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bdba5498e7d3a45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604993257924,
+        "stop" : 1604993258872,
+        "duration" : 948
+      }
+    } ]
+  },
+  "256979f6290b670e6121aeca0a1cf369" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f472151e039c7ace",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604993275632,
+        "stop" : 1604993277341,
+        "duration" : 1709
+      }
+    } ]
+  },
+  "98b9834feaf0b70bb79a652509147c7c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e343c1792880acec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604993262299,
+        "stop" : 1604993267231,
+        "duration" : 4932
+      }
+    } ]
+  },
+  "9a29b6606abd18b4b7d51bb5d919485e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab90041fdf32d416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604993252091,
+        "stop" : 1604993254648,
+        "duration" : 2557
+      }
+    } ]
+  },
+  "cdcf3a9c14b623b6ed8b113cc18362b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f678558fa9f5c675",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604993270491,
+        "stop" : 1604993272375,
+        "duration" : 1884
+      }
+    } ]
+  }
+}

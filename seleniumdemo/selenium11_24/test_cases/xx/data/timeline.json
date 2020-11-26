@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-8UGLRQ7",
+    "children" : [ {
+      "name" : "11108-MainThread",
+      "children" : [ {
+        "name" : "test_contact_addmember[contact addmember succeed]",
+        "uid" : "2899e32e6af01b1b",
+        "parentUid" : "666fd4e6a2820fcbcf18074e540ec67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218002269,
+          "stop" : 1606218004966,
+          "duration" : 2697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1234567", "13711111113", "'保存成功'", "'ccc'" ]
+      }, {
+        "name" : "test_addmember[addmember succeed]",
+        "uid" : "ec3a12675ca0b83e",
+        "parentUid" : "666fd4e6a2820fcbcf18074e540ec67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606217991023,
+          "stop" : 1606217993270,
+          "duration" : 2247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "12345", "13711111111", "'保存成功'", "'aaa'" ]
+      }, {
+        "name" : "test_delete_member[delete member succeed]",
+        "uid" : "725531e027e59935",
+        "parentUid" : "666fd4e6a2820fcbcf18074e540ec67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218008309,
+          "stop" : 1606218010274,
+          "duration" : 1965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'删除成功'", "'aaa'", "'ccc'" ]
+      }, {
+        "name" : "test_addmember_fail[addmember defeated]",
+        "uid" : "4b9a6007077be5c4",
+        "parentUid" : "666fd4e6a2820fcbcf18074e540ec67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606217996622,
+          "stop" : 1606217998890,
+          "duration" : 2268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "13711111112", "'bbb'" ]
+      } ],
+      "uid" : "666fd4e6a2820fcbcf18074e540ec67e"
+    } ],
+    "uid" : "d46f5d3009e3380f945cbfc4ea0bf2c1"
+  } ]
+}

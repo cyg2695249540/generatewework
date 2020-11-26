@@ -1,0 +1,92 @@
+{
+  "uid" : "4a9087f8ea098f7d",
+  "name" : "test_get_department_list",
+  "fullName" : "test_department.TestDepartment#test_get_department_list",
+  "historyId" : "3b95c0a7320bad1df113f7c35856826a",
+  "time" : {
+    "start" : 1604558464576,
+    "stop" : 1604558464786,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604558460391,
+      "stop" : 1604558462692,
+      "duration" : 2301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604558464787,
+      "stop" : 1604558464787,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "字段校验"
+  }, {
+    "name" : "feature",
+    "value" : "部门模块"
+  }, {
+    "name" : "tag",
+    "value" : "fasly(reruns=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8UGLRQ7"
+  }, {
+    "name" : "thread",
+    "value" : "17608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "fasly(reruns=1)" ]
+  },
+  "source" : "4a9087f8ea098f7d.json",
+  "parameterValues" : [ ]
+}

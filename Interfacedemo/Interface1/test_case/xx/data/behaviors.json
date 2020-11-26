@@ -1,0 +1,129 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "部门模块",
+    "children" : [ {
+      "name" : "test_create_department[添加部门]",
+      "uid" : "b33011a847daf50a",
+      "parentUid" : "d437bdb59728123f7659c59ff95d2201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558462716,
+        "stop" : 1604558463520,
+        "duration" : 804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4", "'技术部'" ]
+    }, {
+      "name" : "test_update_department[更新部门]",
+      "uid" : "cf6fa226671e4e86",
+      "parentUid" : "d437bdb59728123f7659c59ff95d2201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558463558,
+        "stop" : 1604558464043,
+        "duration" : 485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4", "'测试研发中心'" ]
+    }, {
+      "name" : "test_delete_department[删除部门]",
+      "uid" : "4ddfae561465466d",
+      "parentUid" : "d437bdb59728123f7659c59ff95d2201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558464051,
+        "stop" : 1604558464567,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4" ]
+    }, {
+      "name" : "test_get_department_list",
+      "uid" : "4a9087f8ea098f7d",
+      "parentUid" : "d437bdb59728123f7659c59ff95d2201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558464576,
+        "stop" : 1604558464786,
+        "duration" : 210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d437bdb59728123f7659c59ff95d2201"
+  }, {
+    "name" : "添加部门",
+    "children" : [ {
+      "name" : "test_create_department[添加部门]",
+      "uid" : "b33011a847daf50a",
+      "parentUid" : "fef5f2b46676a79f60be979cd281de1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558462716,
+        "stop" : 1604558463520,
+        "duration" : 804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4", "'技术部'" ]
+    } ],
+    "uid" : "fef5f2b46676a79f60be979cd281de1f"
+  }, {
+    "name" : "更新部门",
+    "children" : [ {
+      "name" : "test_update_department[更新部门]",
+      "uid" : "cf6fa226671e4e86",
+      "parentUid" : "b64340f85a7438ccb2f977d5dc193eef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558463558,
+        "stop" : 1604558464043,
+        "duration" : 485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4", "'测试研发中心'" ]
+    } ],
+    "uid" : "b64340f85a7438ccb2f977d5dc193eef"
+  }, {
+    "name" : "删除部门",
+    "children" : [ {
+      "name" : "test_delete_department[删除部门]",
+      "uid" : "4ddfae561465466d",
+      "parentUid" : "d7c77759b6f976fbea970cb5a8acf4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558464051,
+        "stop" : 1604558464567,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4" ]
+    } ],
+    "uid" : "d7c77759b6f976fbea970cb5a8acf4c0"
+  }, {
+    "name" : "字段校验",
+    "children" : [ {
+      "name" : "test_get_department_list",
+      "uid" : "4a9087f8ea098f7d",
+      "parentUid" : "b8d8fed94a9adeb57a27ab7e02c70f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604558464576,
+        "stop" : 1604558464786,
+        "duration" : 210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b8d8fed94a9adeb57a27ab7e02c70f4b"
+  } ]
+}

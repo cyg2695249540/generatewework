@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "部门模块",
+    "children" : [ {
+      "name" : "添加部门成功",
+      "children" : [ {
+        "name" : "test_addepartment[add department succeed]",
+        "uid" : "95a781925fcca358",
+        "parentUid" : "fdf61bf8e405e669194a0d204c44a323",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218983264,
+          "stop" : 1606218986453,
+          "duration" : 3189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手工组'", "'新建部门成功'" ]
+      } ],
+      "uid" : "fdf61bf8e405e669194a0d204c44a323"
+    }, {
+      "name" : "取消添加部门",
+      "children" : [ {
+        "name" : "test_addepartment_cancel[add department fail]",
+        "uid" : "6b8750c2305ce8cc",
+        "parentUid" : "f61381b3060f627c4469c24b72f7c1d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218990188,
+          "stop" : 1606218991039,
+          "duration" : 851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'自动化'" ]
+      } ],
+      "uid" : "f61381b3060f627c4469c24b72f7c1d0"
+    }, {
+      "name" : "删除部门成功",
+      "children" : [ {
+        "name" : "test_delete_department[delete department succeed]",
+        "uid" : "7e5a654f1a2a414d",
+        "parentUid" : "950e424912787f06a81bba6be54b2864",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218994339,
+          "stop" : 1606218997214,
+          "duration" : 2875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手工组'", "'删除部门成功'" ]
+      } ],
+      "uid" : "950e424912787f06a81bba6be54b2864"
+    } ],
+    "uid" : "d437bdb59728123f7659c59ff95d2201"
+  } ]
+}

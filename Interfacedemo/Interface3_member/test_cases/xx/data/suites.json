@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_member",
+    "children" : [ {
+      "name" : "TestMember",
+      "children" : [ {
+        "name" : "test_addmember[add member]",
+        "uid" : "8a2814c50a1b2bc5",
+        "parentUid" : "cdde4431c425aff6de793cba2d5b238a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258846914,
+          "stop" : 1605258847524,
+          "duration" : 610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'张三'", "'zhangsan'" ]
+      }, {
+        "name" : "test_update_member[update member]",
+        "uid" : "b26ec17326382b73",
+        "parentUid" : "cdde4431c425aff6de793cba2d5b238a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258847524,
+          "stop" : 1605258848133,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'张三1'", "'zhangsan'" ]
+      }, {
+        "name" : "test_delete_member[delete member]",
+        "uid" : "cfc66624facc6edc",
+        "parentUid" : "cdde4431c425aff6de793cba2d5b238a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258848149,
+          "stop" : 1605258848727,
+          "duration" : 578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'张三1'", "'zhangsan'" ]
+      }, {
+        "name" : "test_get_memberdetail[get memberdetail]",
+        "uid" : "3e274cd741705d79",
+        "parentUid" : "cdde4431c425aff6de793cba2d5b238a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258848727,
+          "stop" : 1605258848727,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'zhangsan'" ]
+      }, {
+        "name" : "test_get_department_member_list",
+        "uid" : "6ea1a0ab18db318a",
+        "parentUid" : "cdde4431c425aff6de793cba2d5b238a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605258848742,
+          "stop" : 1605258848742,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cdde4431c425aff6de793cba2d5b238a"
+    } ],
+    "uid" : "103aaf9363bf134dc991796fc67dba36"
+  } ]
+}

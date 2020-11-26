@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_department",
+    "children" : [ {
+      "name" : "TestAddepartment",
+      "children" : [ {
+        "name" : "test_addepartment[add department succeed]",
+        "uid" : "95a781925fcca358",
+        "parentUid" : "35882527c140f9a9089042242708fb26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218983264,
+          "stop" : 1606218986453,
+          "duration" : 3189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手工组'", "'新建部门成功'" ]
+      }, {
+        "name" : "test_addepartment_cancel[add department fail]",
+        "uid" : "6b8750c2305ce8cc",
+        "parentUid" : "35882527c140f9a9089042242708fb26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218990188,
+          "stop" : 1606218991039,
+          "duration" : 851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'自动化'" ]
+      }, {
+        "name" : "test_delete_department[delete department succeed]",
+        "uid" : "7e5a654f1a2a414d",
+        "parentUid" : "35882527c140f9a9089042242708fb26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218994339,
+          "stop" : 1606218997214,
+          "duration" : 2875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手工组'", "'删除部门成功'" ]
+      } ],
+      "uid" : "35882527c140f9a9089042242708fb26"
+    } ],
+    "uid" : "6c6eff7e10a204b9e95bf0acd4ee260b"
+  } ]
+}

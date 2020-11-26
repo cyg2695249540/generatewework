@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-8UGLRQ7",
+    "children" : [ {
+      "name" : "16064-MainThread",
+      "children" : [ {
+        "name" : "test_addepartment[add department succeed]",
+        "uid" : "95a781925fcca358",
+        "parentUid" : "0be4e944367c8523490873fcde457ded",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218983264,
+          "stop" : 1606218986453,
+          "duration" : 3189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手工组'", "'新建部门成功'" ]
+      }, {
+        "name" : "test_delete_department[delete department succeed]",
+        "uid" : "7e5a654f1a2a414d",
+        "parentUid" : "0be4e944367c8523490873fcde457ded",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218994339,
+          "stop" : 1606218997214,
+          "duration" : 2875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'手工组'", "'删除部门成功'" ]
+      }, {
+        "name" : "test_addepartment_cancel[add department fail]",
+        "uid" : "6b8750c2305ce8cc",
+        "parentUid" : "0be4e944367c8523490873fcde457ded",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218990188,
+          "stop" : 1606218991039,
+          "duration" : 851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'自动化'" ]
+      } ],
+      "uid" : "0be4e944367c8523490873fcde457ded"
+    } ],
+    "uid" : "d46f5d3009e3380f945cbfc4ea0bf2c1"
+  } ]
+}

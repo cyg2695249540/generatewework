@@ -1,0 +1,41 @@
+[ {
+  "uid" : "6baac01b92653c3f",
+  "name" : "test_update_department[update department]",
+  "time" : {
+    "start" : 1604898921871,
+    "stop" : 1604898922393,
+    "duration" : 522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f71dcbd20ca39922",
+  "name" : "test_create_department[add department]",
+  "time" : {
+    "start" : 1604898921371,
+    "stop" : 1604898921871,
+    "duration" : 500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9210e892405d63",
+  "name" : "test_get_department_list",
+  "time" : {
+    "start" : 1604898922940,
+    "stop" : 1604898923164,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c99dbd8649c4424",
+  "name" : "test_delete_department[delete department]",
+  "time" : {
+    "start" : 1604898922409,
+    "stop" : 1604898922940,
+    "duration" : 531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

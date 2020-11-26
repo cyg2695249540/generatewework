@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-8UGLRQ7",
+    "children" : [ {
+      "name" : "17608-MainThread",
+      "children" : [ {
+        "name" : "test_delete_department[删除部门]",
+        "uid" : "4ddfae561465466d",
+        "parentUid" : "ccfd51d0728cc6f8233ecb2d067ee5e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604558464051,
+          "stop" : 1604558464567,
+          "duration" : 516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4" ]
+      }, {
+        "name" : "test_update_department[更新部门]",
+        "uid" : "cf6fa226671e4e86",
+        "parentUid" : "ccfd51d0728cc6f8233ecb2d067ee5e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604558463558,
+          "stop" : 1604558464043,
+          "duration" : 485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "'测试研发中心'" ]
+      }, {
+        "name" : "test_create_department[添加部门]",
+        "uid" : "b33011a847daf50a",
+        "parentUid" : "ccfd51d0728cc6f8233ecb2d067ee5e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604558462716,
+          "stop" : 1604558463520,
+          "duration" : 804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "'技术部'" ]
+      }, {
+        "name" : "test_get_department_list",
+        "uid" : "4a9087f8ea098f7d",
+        "parentUid" : "ccfd51d0728cc6f8233ecb2d067ee5e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604558464576,
+          "stop" : 1604558464786,
+          "duration" : 210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccfd51d0728cc6f8233ecb2d067ee5e5"
+    } ],
+    "uid" : "d46f5d3009e3380f945cbfc4ea0bf2c1"
+  } ]
+}

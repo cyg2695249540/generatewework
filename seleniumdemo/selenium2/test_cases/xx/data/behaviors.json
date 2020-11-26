@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成员模块",
+    "children" : [ {
+      "name" : "添加成员",
+      "children" : [ {
+        "name" : "test_addmember[addmember succeed]",
+        "uid" : "ab90041fdf32d416",
+        "parentUid" : "6e27f1087b38d0e7c36624bbc3f02615",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993252091,
+          "stop" : 1604993254648,
+          "duration" : 2557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "12345", "13711111111", "'保存成功'", "'aaa'" ]
+      } ],
+      "uid" : "6e27f1087b38d0e7c36624bbc3f02615"
+    }, {
+      "name" : "添加成员失败",
+      "children" : [ {
+        "name" : "test_addmember_fail[addmember defeated]",
+        "uid" : "1bdba5498e7d3a45",
+        "parentUid" : "537148763037b979d9dfb55c2c3286f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993257924,
+          "stop" : 1604993258872,
+          "duration" : 948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "13711111112", "'bbb'" ]
+      } ],
+      "uid" : "537148763037b979d9dfb55c2c3286f7"
+    }, {
+      "name" : "通讯录添加成员",
+      "children" : [ {
+        "name" : "test_contact_addmember[contact addmember succeed]",
+        "uid" : "e343c1792880acec",
+        "parentUid" : "48ed52205ba6b0f54573734116488e35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993262299,
+          "stop" : 1604993267231,
+          "duration" : 4932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1234567", "13711111113", "'保存成功'", "'ccc'" ]
+      } ],
+      "uid" : "48ed52205ba6b0f54573734116488e35"
+    }, {
+      "name" : "删除成员",
+      "children" : [ {
+        "name" : "test_delete_member[delete member aaa succeed]",
+        "uid" : "f678558fa9f5c675",
+        "parentUid" : "a6605d4a9a64dccfb2b0bac248c8b04e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993270491,
+          "stop" : 1604993272375,
+          "duration" : 1884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'删除成功'", "'aaa'" ]
+      }, {
+        "name" : "test_delete_member[delete member ccc succeed]",
+        "uid" : "f472151e039c7ace",
+        "parentUid" : "a6605d4a9a64dccfb2b0bac248c8b04e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993275632,
+          "stop" : 1604993277341,
+          "duration" : 1709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'删除成功'", "'ccc'" ]
+      } ],
+      "uid" : "a6605d4a9a64dccfb2b0bac248c8b04e"
+    } ],
+    "uid" : "9ba834f505cfa3fa0482e3470809ab55"
+  } ]
+}

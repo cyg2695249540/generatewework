@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_member",
+    "children" : [ {
+      "name" : "test_addmember[addmember sucess]",
+      "uid" : "8c74593ef5e31faa",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605098633288,
+        "stop" : 1605098642569,
+        "duration" : 9281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'女'", "'LCQ'", "13711111111", "'添加成功'" ]
+    }, {
+      "name" : "test_deletemember[deletemember sucess]",
+      "uid" : "7ce9724cdedbc608",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605098660161,
+        "stop" : 1605098669239,
+        "duration" : 9078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'LCQ'", "'无搜索结果'" ]
+    } ],
+    "uid" : "8a323808f876c4ca6ffee2d685fb6479"
+  } ]
+}

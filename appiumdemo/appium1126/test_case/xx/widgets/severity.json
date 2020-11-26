@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c0804f3bb6f43fd8",
+  "name" : "test_addmember[addmember sucess]",
+  "time" : {
+    "start" : 1606392248885,
+    "stop" : 1606392258229,
+    "duration" : 9344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72f67e84332c06b4",
+  "name" : "test_deletemember[deletemember sucess]",
+  "time" : {
+    "start" : 1606392275653,
+    "stop" : 1606392285903,
+    "duration" : 10250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

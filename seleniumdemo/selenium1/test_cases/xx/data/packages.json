@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_member",
+    "children" : [ {
+      "name" : "test_addmember[addmember succeed]",
+      "uid" : "3b9dad78f895c1a4",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604655562588,
+        "stop" : 1604655564974,
+        "duration" : 2386
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "12345", "13711111111", "'保存成功'", "'aaa'" ]
+    }, {
+      "name" : "test_addmember_fail[addmember defeated]",
+      "uid" : "caf6ff53c176f4e1",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604655568076,
+        "stop" : 1604655571183,
+        "duration" : 3107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "123456", "13711111112", "'bbb'" ]
+    }, {
+      "name" : "test_contact_addmember[contact addmember succeed]",
+      "uid" : "f6731010fd9e1ff2",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604655574715,
+        "stop" : 1604655577300,
+        "duration" : 2585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1234567", "13711111113", "'保存成功'", "'ccc'" ]
+    }, {
+      "name" : "test_delete_member[delete member aaa succeed]",
+      "uid" : "67fdcc3009c099d5",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604655581036,
+        "stop" : 1604655583088,
+        "duration" : 2052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'删除成功'", "'aaa'" ]
+    }, {
+      "name" : "test_delete_member[delete member ccc succeed]",
+      "uid" : "d5ea7343814be219",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604655588474,
+        "stop" : 1604655590281,
+        "duration" : 1807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'删除成功'", "'ccc'" ]
+    } ],
+    "uid" : "8a323808f876c4ca6ffee2d685fb6479"
+  } ]
+}

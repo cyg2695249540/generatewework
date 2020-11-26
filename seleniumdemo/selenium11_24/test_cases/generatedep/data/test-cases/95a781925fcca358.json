@@ -1,0 +1,65 @@
+{
+  "uid" : "95a781925fcca358",
+  "name" : "test_addepartment[add department succeed]",
+  "fullName" : "test_department.TestAddepartment#test_addepartment",
+  "historyId" : "f433031869e556d73e3ff9ee44c9dc9a",
+  "time" : {
+    "start" : 1606218983264,
+    "stop" : 1606218986453,
+    "duration" : 3189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "部门模块"
+  }, {
+    "name" : "story",
+    "value" : "添加部门成功"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8UGLRQ7"
+  }, {
+    "name" : "thread",
+    "value" : "16064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "departmentname",
+    "value" : "'手工组'"
+  }, {
+    "name" : "result",
+    "value" : "'新建部门成功'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95a781925fcca358.json",
+  "parameterValues" : [ "'手工组'", "'新建部门成功'" ]
+}

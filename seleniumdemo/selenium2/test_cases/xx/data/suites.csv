@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 10 15:27:50 CST 2020","Tue Nov 10 15:27:52 CST 2020","1884","","test_member","TestMember","","","test_delete_member[delete member aaa succeed]",""
+"passed","Tue Nov 10 15:27:32 CST 2020","Tue Nov 10 15:27:34 CST 2020","2557","","test_member","TestMember","","","test_addmember[addmember succeed]",""
+"passed","Tue Nov 10 15:27:55 CST 2020","Tue Nov 10 15:27:57 CST 2020","1709","","test_member","TestMember","","","test_delete_member[delete member ccc succeed]",""
+"passed","Tue Nov 10 15:27:42 CST 2020","Tue Nov 10 15:27:47 CST 2020","4932","","test_member","TestMember","","","test_contact_addmember[contact addmember succeed]",""
+"passed","Tue Nov 10 15:27:37 CST 2020","Tue Nov 10 15:27:38 CST 2020","948","","test_member","TestMember","","","test_addmember_fail[addmember defeated]",""

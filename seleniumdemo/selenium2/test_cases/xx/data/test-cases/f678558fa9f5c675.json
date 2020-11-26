@@ -1,0 +1,68 @@
+{
+  "uid" : "f678558fa9f5c675",
+  "name" : "test_delete_member[delete member aaa succeed]",
+  "fullName" : "test_member.TestMember#test_delete_member",
+  "historyId" : "cdcf3a9c14b623b6ed8b113cc18362b3",
+  "time" : {
+    "start" : 1604993270491,
+    "stop" : 1604993272375,
+    "duration" : 1884
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "成员模块"
+  }, {
+    "name" : "story",
+    "value" : "删除成员"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8UGLRQ7"
+  }, {
+    "name" : "thread",
+    "value" : "7288-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "'删除成功'"
+  }, {
+    "name" : "username",
+    "value" : "'aaa'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1)" ]
+  },
+  "source" : "f678558fa9f5c675.json",
+  "parameterValues" : [ "'删除成功'", "'aaa'" ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 24 19:56:23 CST 2020","Tue Nov 24 19:56:26 CST 2020","3189","","test_department","TestAddepartment","","","test_addepartment[add department succeed]",""
+"passed","Tue Nov 24 19:56:34 CST 2020","Tue Nov 24 19:56:37 CST 2020","2875","","test_department","TestAddepartment","","","test_delete_department[delete department succeed]",""
+"passed","Tue Nov 24 19:56:30 CST 2020","Tue Nov 24 19:56:31 CST 2020","851","","test_department","TestAddepartment","","","test_addepartment_cancel[add department fail]",""

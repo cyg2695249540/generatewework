@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-8UGLRQ7",
+    "children" : [ {
+      "name" : "7288-MainThread",
+      "children" : [ {
+        "name" : "test_delete_member[delete member ccc succeed]",
+        "uid" : "f472151e039c7ace",
+        "parentUid" : "3af30e72bfe66e35739a3eb3e1eb3bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993275632,
+          "stop" : 1604993277341,
+          "duration" : 1709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'删除成功'", "'ccc'" ]
+      }, {
+        "name" : "test_contact_addmember[contact addmember succeed]",
+        "uid" : "e343c1792880acec",
+        "parentUid" : "3af30e72bfe66e35739a3eb3e1eb3bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993262299,
+          "stop" : 1604993267231,
+          "duration" : 4932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1234567", "13711111113", "'保存成功'", "'ccc'" ]
+      }, {
+        "name" : "test_addmember_fail[addmember defeated]",
+        "uid" : "1bdba5498e7d3a45",
+        "parentUid" : "3af30e72bfe66e35739a3eb3e1eb3bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993257924,
+          "stop" : 1604993258872,
+          "duration" : 948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "13711111112", "'bbb'" ]
+      }, {
+        "name" : "test_delete_member[delete member aaa succeed]",
+        "uid" : "f678558fa9f5c675",
+        "parentUid" : "3af30e72bfe66e35739a3eb3e1eb3bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993270491,
+          "stop" : 1604993272375,
+          "duration" : 1884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'删除成功'", "'aaa'" ]
+      }, {
+        "name" : "test_addmember[addmember succeed]",
+        "uid" : "ab90041fdf32d416",
+        "parentUid" : "3af30e72bfe66e35739a3eb3e1eb3bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604993252091,
+          "stop" : 1604993254648,
+          "duration" : 2557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "12345", "13711111111", "'保存成功'", "'aaa'" ]
+      } ],
+      "uid" : "3af30e72bfe66e35739a3eb3e1eb3bb2"
+    } ],
+    "uid" : "d46f5d3009e3380f945cbfc4ea0bf2c1"
+  } ]
+}
