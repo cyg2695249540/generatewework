@@ -44,5 +44,5 @@ Result table:
 
 
 
-select Weather.id as 'Id' from Weather join Weather w on datediff(Weather.recordDate,w.recordDate)=1
+select Weather.id as 'Id' from Weather join Weather w where datediff(Weather.recordDate,w.recordDate)=1
 and Weather.Temperature>w.Temperature
